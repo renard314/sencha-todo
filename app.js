@@ -5,10 +5,6 @@ Ext.application({
         'Ext.MessageBox'
     ],
 
-	models: ['Todo'],
-	
-	stores: ['Todo'],
-
     views: ['Main'],
 
 	controllers: ['Todo'],
