@@ -22,6 +22,7 @@ Ext.define("GS.controller.Todo",{
 				if(e == 'yes'){
 					var todos = Ext.getStore('todos');
 					todos.removeAt(index);
+					todos.sync();
 				}
 			}
 		);
