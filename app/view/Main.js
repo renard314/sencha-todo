@@ -24,10 +24,7 @@ Ext.define("GS.view.Main", {
 			},
 			{
 				xtype:'list',
-				store:"todos",
 				id:'todolist',
-				itemTpl:['{text}'],
-				grouped:true
 			}			
 		]
 	}
