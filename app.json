@@ -57,6 +57,9 @@
      */
     "css": [
         {
+/*
+*"path": "sdk/resources/css/android.css",
+*/
             "path": "resources/css/app.css",
             "update": "delta"
         }

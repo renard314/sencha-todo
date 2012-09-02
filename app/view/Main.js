@@ -9,7 +9,6 @@ Ext.define("GS.view.Main", {
 		layout: {
 			type:'fit'
 		},
-		fullscreen:true,
 		items:[
 			{
 				xtype:'titlebar',
