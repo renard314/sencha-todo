@@ -4,6 +4,10 @@ Ext.define("GS.store.Todo",{
 	config: {		
 		model: "GS.model.Todo",
 		storeId:"todos",
+		proxy:{
+			type:"localstorage",
+			id:"todostore"
+		},
 		sorters: [
 				{property:'timestamp',direction:'DESC'}
 			],
@@ -16,10 +20,6 @@ Ext.define("GS.store.Todo",{
 				}
 			},
 			sortProperty: 'completed'
-		},
-		proxy:{
-			type:"localstorage",
-			id:"todostore"
 		},
 		autoLoad:true
 	}
